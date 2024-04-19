@@ -1,4 +1,4 @@
-# ChatApp
+# python-socket-chat
 
 This is a chat application that allows multiple users to send and receive messages in real-time.
 
