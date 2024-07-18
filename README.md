@@ -1,6 +1,24 @@
-# python-socket-chat
+# Python Chat App
+
+![Build Status](https://img.shields.io/badge/build-passing-brightgreen)
+![License](https://img.shields.io/badge/license-MIT-blue)
+![Python Version](https://img.shields.io/badge/python-3.10-blue.svg)
+![Contributions Welcome](https://img.shields.io/badge/contributions-welcome-orange.svg)
 
 This is a chat application that allows multiple users to send and receive messages in real-time.
+
+## Table of Contents
+- [Features](#features)
+- [Usage](#usage)
+  - [Run the server](#run-the-server)
+  - [Run the chat app](#run-the-chat-app)
+  - [Login](#login)
+  - [Send a message](#send-a-message)
+  - [Logout](#logout)
+- [How it works](#how-it-works)
+- [Requirements](#requirements)
+- [References](#references)
+
 
 ## Features
 
@@ -40,7 +58,7 @@ There are 3 users already created, defined in the `users.json` file:
 
 - User: `Charlie`, password: `789`
 
-![alt text](imgs/image.png)
+![alt text](imgs/image-1.png)
 
 ### Send a message
 
@@ -90,17 +108,20 @@ The destination (server or client) reads the packet, extracts the length of `dat
 The chat app uses a simple polling mechanism to check for new messages and updates from the server. It sends a request to the server every 100 milliseconds to check for new messages and updates.
 
 
-![alt text](imgs/image-1.png)
+![alt text](imgs/image-2.png)
 
 
 ## Requirements
 
-- Python 3
 - `tkinter` library (usually included in Python distributions)
 - `socket` library (usually included in Python distributions)
 
-## References
+## Contributing
 
-- [Tkinter](https://docs.python.org/3/library/tkinter.html)
-- [Socket Programming in Python](https://realpython.com/python-sockets/)
-- [JSON](https://docs.python.org/3/library/json.html)
+Contributions are welcome! Please feel free to submit a Pull Request.
+
+## License
+
+This project is licensed under the MIT License. See the [LICENSE](LICENSE) file for details.
+
+
