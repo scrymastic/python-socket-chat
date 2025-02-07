@@ -1,7 +1,7 @@
 # Python Chat App
 
 ![Python Version](https://img.shields.io/badge/python-3.10-blue.svg)
-![Contributions Welcome](https://img.shields.io/badge/contributions-welcome-orange.svg)
+![Contributions Welcome](https://img.shields.io/badge/contributions-welcome-green.svg)
 
 This is a chat application that allows multiple users to send and receive messages in real-time.
 
