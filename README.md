@@ -1,7 +1,5 @@
 # Python Chat App
 
-![Build Status](https://img.shields.io/badge/build-passing-brightgreen)
-![License](https://img.shields.io/badge/license-MIT-blue)
 ![Python Version](https://img.shields.io/badge/python-3.10-blue.svg)
 ![Contributions Welcome](https://img.shields.io/badge/contributions-welcome-orange.svg)
 
@@ -18,7 +16,6 @@ This is a chat application that allows multiple users to send and receive messag
 - [How it works](#how-it-works)
 - [Requirements](#requirements)
 - [References](#references)
-
 
 ## Features
 
@@ -68,7 +65,6 @@ The message will be displayed in the chat window on both the sender's and receiv
 
 The message will also be saved to a file called `history.json` in the same directory as the chat app.
 
-
 ### Logout
 
 To logout, simply close the chat app window.
@@ -107,14 +103,7 @@ The destination (server or client) reads the packet, extracts the length of `dat
 
 The chat app uses a simple polling mechanism to check for new messages and updates from the server. It sends a request to the server every 100 milliseconds to check for new messages and updates.
 
-
 ![alt text](imgs/image-2.png)
-
-
-## Requirements
-
-- `tkinter` library (usually included in Python distributions)
-- `socket` library (usually included in Python distributions)
 
 ## Contributing
 
